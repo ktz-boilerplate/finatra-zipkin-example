@@ -35,12 +35,16 @@ $ sbt 'project thrift-server' "-thrift.name=thrift-server -com.twitter.finagle.z
 ### queries
 #### get
 /users
+
 /user/:userId
+
 /user/car/
+
 /user/:userId/car
 
 #### post
 /user
+
 body example:
 
 ```json
