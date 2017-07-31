@@ -8,7 +8,7 @@ import com.twitter.finatra.http.HttpServer
 import com.twitter.finatra.http.routing.HttpRouter
 import com.twitter.finatra.http.filters._
 import org.example.ktz.server.http.controller.ExampleController
-import org.example.ktz.server.http.module.ProvideThriftModule
+import org.example.ktz.server.http.module.ProvidedModule
 
 /**
  * Created by ktz on 2016. 12. 5..
@@ -19,7 +19,7 @@ object FinatraExampleHttpServerMain extends FinatraExampleHttpServer
 class FinatraExampleHttpServer extends HttpServer {
   override val name: String = "ktzExample"
 
-  override val modules = Seq(ProvideThriftModule)
+  override val modules = Seq(ProvidedModule)
 
   override val defaultFinatraHttpPort: String = ":8080"
 
