@@ -1,0 +1,50 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen### SBT template
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+target/
+lib_managed/
+src_managed/
+project/boot/
+.history
+.cache
+### Scala template
+*.class
+*.log
+
+# sbt specific
+.lib/
+dist/*
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# ENSIME specific
+.ensime_cache/
+.ensime
+### Scala template
+
+# sbt specific
+
+# Scala-IDE specific
+
+# ENSIME specific
+### SBT template
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+gen
